@@ -3,9 +3,10 @@ pipeline {
   stages {
      stage (" build the job ") {
        steps {
-          echo " build successfull " 
+          sh ' echo " build successfull " ' 
 	  }
 	}
      }
 
 }
+
